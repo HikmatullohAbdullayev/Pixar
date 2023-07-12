@@ -1,0 +1,36 @@
+.work {
+    padding-top: 56px;
+
+}
+
+
+.work__text {
+    margin-top: 10px;
+    text-align: center;
+    max-width: 720px;
+    margin: auto;
+  
+}
+.box{
+    max-width: 300px;
+    height: 278px;
+}
+.work__content_list {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    &:not(:first-child){
+        margin-top: 48px;
+    }
+}
+.work__content{
+    margin-left: 20px;
+}
+.work__content_title {
+    text-align: start;
+}
+.work__content_text {
+    max-width: 500px;
+    text-align: start;
+    margin-top: 10px;
+}
