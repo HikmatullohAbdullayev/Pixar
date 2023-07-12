@@ -1,0 +1,123 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/open-sans-v35-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/open-sans-v35-latin-700.woff2") format("woff2");
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1140px;
+}
+
+/* <!-- =====HEADER-START===== --> */
+.header {
+  background: #FFF;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__box_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__link {
+  display: block;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 16px;
+}
+
+.header__number {
+  border-radius: 5px;
+  display: block;
+  padding: 8px 16px;
+  background-color: #00BAFC;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+}
+/* <!-- =====HEADER-END===== --> */
+
+
+/* <!-- =====MAIN-START===== --> */
+    
+    /* <!-- =====MAIN-END===== --> */
+/*# sourceMappingURL=main.css.map */
