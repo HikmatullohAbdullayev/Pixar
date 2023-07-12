@@ -1,0 +1,39 @@
+.hero {
+    padding-top: 80px;
+   
+
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    display: block;
+
+    
+    height: auto;
+    background-image: url(../../image/hero-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  
+}
+.hero__content {
+    max-width: 470px;
+}
+.hero__title {
+font-size: 30px;
+font-weight: 700;
+line-height: 130%;
+    margin-bottom:16px;
+}
+.hero__text {
+    margin-bottom: 16px;
+  
+}
+.hero__link {
+    
+    color: #FFF;
+  padding: 8px 16px;
+  
+}
