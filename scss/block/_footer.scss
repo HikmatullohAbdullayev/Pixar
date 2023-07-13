@@ -1,0 +1,35 @@
+.footer {
+    background: var(--black, #191919);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+
+}
+.footer__content {
+    max-width: 320px;
+    text-align: start;
+    padding-bottom: 120px;
+
+}
+.footer__title {
+    padding-top: 56px;
+    color: #FFF;
+    text-align: start;
+}
+.footer__text {
+    margin-top: 16px;
+    color: #FFF;
+    text-align: start;
+}
+.footer__item {
+ margin-top: 16px;
+}
+.footer__link {
+   
+    color: #FFF;
+    text-align: start;
+    
+}
